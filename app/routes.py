@@ -1,6 +1,6 @@
 from app import app
 from flask import render_template, redirect, url_for
-from app.forms import alunoForm
+from app.form import alunoForm
 from app.controllerAluno import AlunoController
 
 @app.route('/')
